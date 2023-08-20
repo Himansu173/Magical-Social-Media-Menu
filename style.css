@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(23, 23, 53);
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid white;
+    transition: 0.4s ease-in-out;
+}
+
+#menu {
+    height: 4.1rem;
+    width: 4.1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 5;
+    border: 3px solid white;
+    transition: 0.4s ease-in-out;
+}
+
+.icon:hover {
+    box-shadow: 0 0 20px white;
+}
+
+#whatsapp:hover{
+    border-color: #078a44;
+}
+
+#twitter:hover{
+    border-color: #00acee;
+}
+
+#reddit:hover{
+    border-color: OrangeRed;
+}
+
+#linkedin:hover{
+    border-color: #0072b1 ;
+}
+
+#insta:hover{
+    border-color: #962fbf;
+}
+
+#github:hover{
+    border-color: rgb(42, 42, 42);
+}
+
+#youtube:hover{
+    border-color: #CD201F;
+}
+
+#facebook:hover{
+    border-color: #1877F2;
+}
